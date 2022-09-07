@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTRATION</title>
+    <style>
+        body{
+            text-align: center;
+            font-style: italic;
+            background-color: #adff61;
+        }
+        button{
+            background-color: #9af63d;
+            padding: 15px;
+            font-size: 105%;
+            border: none;
+        }
+        fieldset {
+            background-color: #dbffb7;
+        }
+        legend{
+            text-align: left;
+
+        }
+        button[name=submit]:hover{
+            background-color: #53b206;
+
+        }
+    </style>
+</head>
+<body>
+<h1>REGISTRATION FORM</h1>
+
+<form action="/action_page.php">
+    <fieldset>
+        <legend>Rigistration:</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="Phone" ><br><br>
+        <label for="cars_type">Vehicle Type:</label>
+        <select required name="cars_type"  id="cars_type" >
+            <option value="">None</option>
+            <optgroup label="Swedish Cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+            </optgroup>
+            <optgroup label="German Cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </optgroup>
+        </select  ><br><br>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+        <br><br>
+        <button type="button" name="submit" onclick="alert('DONE') " autofocus>SUBMIT</button>
+
+    </fieldset><br><br>
+</form>
+</body>
+</html>
