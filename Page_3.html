@@ -3,50 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>table</title>
-  <style>
-    body{
-      text-align: center;
-    }
-    table{
-      height:200px;
-      width:95%;
-      margin-top: 1cm;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    mark {
-      background-color: #70ef07;
-      color: #000000;
-    }
-
-  </style>
+  <link href="css/bootstrap.min.css" rel="stylesheet"  >
 </head>
 <body>
-<table>
-  <colgroup>
-    <col style="background-color:#c9fd88">
-    <col style="background-color:#adff61">
-    <col style="background-color:#9af63d">
-  </colgroup>
-  <tr>
-    <th><mark>NAME</mark></th>
-    <th style="font-style: italic">Mobile</th>
-    <th style="font-weight: bold ">Price</th>
-  </tr>
-  <tr>
-    <td><mark>raneen</mark></td>
-    <td style="font-style: italic">0578963459</td>
-    <td style="font-weight: bold ">$5600</td>
-  </tr>
-  <tr>
-    <td><mark>mhmad</mark></td>
-    <td style="font-style: italic">0578963459</td>
-    <td style="font-weight: bold " >$5300</td>
-  </tr><tr>
-    <td><mark>khel</mark></td>
-    <td style="font-style: italic">0596877414</td>
-    <td style="font-weight: bold ">$5300</td>
-  </tr>
-</table>
+<div class="p-5">
+  <table class="table table-bordered table-striped ">
+    <thead ><tr>
+      <th ><mark class="bg-black text-white">NAME</mark></th>
+      <th class="fst-italic">Mobile</th>
+      <th class="fw-bold">Price</th>
+    </tr></thead>
+
+    <tbody>
+    <tr>
+      <td><mark class="bg-black text-white">raneen</mark></td>
+      <td class="fst-italic">0578963459</td>
+      <td class="fw-bold">$5600</td>
+    </tr>
+    <tr>
+      <td><mark class="bg-black text-white">mhmad</mark></td>
+      <td class="fst-italic">0578963459</td>
+      <td class="fw-bold">$5300</td>
+    </tr><tr>
+      <td><mark class="bg-black text-white">khel</mark></td>
+      <td class="fst-italic">0596877414</td>
+      <td class="fw-bold">$5300</td>
+    </tr>
+    </tbody>
+
+  </table>
+
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
