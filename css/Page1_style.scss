@@ -1,0 +1,26 @@
+@import "./variables";
+body
+{
+  background-color: $BGcolor;
+  font-size: 20px;
+  font-family: system-ui;
+}
+h1{
+  @include flexCenter();
+  a{
+    text-decoration: none;
+    color: #050505;
+    &:active {
+      color: $Btn;
+    }
+  }
+}
+img{
+  display: flex;
+  margin: auto;
+  border: 2px #050505 solid;
+  padding: 20px;
+}
+.iframe {
+  @include flexCenter();
+}

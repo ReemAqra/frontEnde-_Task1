@@ -1,0 +1,57 @@
+@import "./variables";
+
+body{
+  @extend .multbody;
+
+}
+form{
+ @include flexCenter();
+  div{
+    padding: 10px 50px;
+  }
+  fieldset {
+    border: none;
+    box-shadow: 0 5px 10px $Btn;
+    border-radius: $radius;
+    background-color: $Btn;
+    text-align: center;
+  }
+  button{
+    border-radius: $radius;
+
+    background-color: $Btn;
+    padding: 15px;
+    font-size: 105%;
+    border: none;
+    &:hover{
+      background-color: $BGcolor;
+    }
+  }
+}
+h1{
+  @include flexCenter();
+  padding: 5px;
+  &::after{
+    content: "";
+    background-color: $BGcolor;
+    width: 508px;
+    height: 2px;
+    position: absolute;
+    left: -76px;
+    top: 47px;
+
+  }
+  &::before{
+    content: "";
+    background-color: $BGcolor;
+    width: 508px;
+    height: 2px;
+    position: absolute;
+    right: -76px;
+    top: 47px;
+
+  }
+}
+
+
+

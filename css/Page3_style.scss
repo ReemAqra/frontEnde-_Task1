@@ -1,0 +1,36 @@
+@import "./variables";
+body {
+  @extend .multbody;
+}
+table{
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px $Btn;
+  background-color: white;
+  text-align: left;
+  overflow: hidden;
+  thead{
+    box-shadow: 0 0.5px 5px $Btn;
+  }
+  th{
+    padding: 2rem 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+  }
+  td{
+    padding: 2rem 4rem;
+  }
+  .mark{
+    border-radius: $radius;
+    background-color: $BGcolor;
+    padding: 0.2rem 1rem;
+    text-align: center;
+    color: #788393;
+  }
+  .mobile{
+    font-style: italic
+  }
+  .price{
+    font-weight: 900;
+  }
+}
