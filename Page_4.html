@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"  >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/Page4_style.css">
+</head>
+<body>
+
+<!---    navbar    --->
+
+<nav class="nav_css navbar navbar-expand-md top-0 mb-3 ">
+    <div class=" m-0 top-0 w-100 ">
+        <!--  header  -->
+        <a href="#" class=" p-3 navbar-brand  float-start  nav_css_logo" ><i class="fa fa-home" ></i>Logo</a>
+        <div class="collapse  navbar-collapse  nav_css  " id="navbarNav">
+            <a href="#" class=" d-block float-start align-self-stretch text-center  nav_css_item"><i class="fa fa-globe"></i></a>
+            <a href="#" class=" d-block float-start align-self-stretch  nav_css_item"><i class="fa fa-user"></i></a>
+            <a href="#" class=" d-block float-start align-self-stretch  nav_css_item"><i class="fa fa-envelope"></i></a>
+            <div class="  position-static align-self-stretch  text-white  nav_css_notification">
+                <button class="nav_css border-0"><i class="fa fa-bell m-3 "></i><span class=" rounded-circle float-end">3</span></button>
+                <div class="position-absolute top-100  text-black dropdown-content m-0" >
+                    <a href="#" class="text-black float-start align-self-stretch" >One new friend request</a>
+                    <a href="#" class="text-black float-start align-self-stretch" >John Doe posted on your wall</a>
+                    <a href="#" class="text-black float-start align-self-stretch" >Jane likes your post</a>
+                </div>
+            </div>
+            <a class=" d-flex ms-auto    align-self-stretch  nav_css_item">
+                <img src="images/avatar2.png" title="My Account" width="30" height="30" class="d-grid rounded-circle align-text-top d-flex" >
+            </a>
+        </div>
+
+        <!--  small screen  -->
+        <button class="navbar-toggler float-end  p-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbar_Nav" aria-controls="navbar_Nav" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+    </button>
+        <div id="navbar_Nav" class="collapse  w-100   m-0 " style="">
+            <div class=" fs-5 p-3 d-grid col-12 nav_css_">
+                <a href="#" class="nav_css_ p-2 text-decoration-none float-start align-self-stretch" >Link 1</a>
+                <a href="#" class="nav_css_ p-2 text-decoration-none float-start align-self-stretch">Link 2</a>
+                <a href="#" class="nav_css_ p-2 text-decoration-none float-start align-self-stretch">Link 3</a>
+                <a href="#" class="nav_css_ p-2 text-decoration-none float-start align-self-stretch">My Profile</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!---   End Navbar    --->
+
+<div class="  p-3 text-center">
+        <div class=" row align-items-start p-0">
+
+            <div class="col-md-3 bg-light row-cols-ms-12">
+                <!-- profile -->
+                <div class=" card shadow container mb-5 bg-body rounded">
+
+                    <div class="card-header bg-white">
+                        <h5 class="p-3">My Profile</h5>
+
+                        <img src="images/avatar3.png" class="rounded-circle p-2" style="width: 30%" alt="Avatar">
+                    </div>
+                    <div class="card-body justify-content-start d-grid">
+                        <p ><i class="fa fa-pencil me-3 fs-5" style="color: #4d636f"></i> Designer, UI</p>
+                        <p ><i class="fa fa-home me-3 fs-5" style="color: #4d636f"></i> London, UK</p>
+                        <p ><i class="fa fa-birthday-cake me-3 fs-5" style="color: #4d636f"></i> April 1, 1988</p>
+                    </div>
+
+                </div>
+
+                <div class="card shadow mb-5 bg-body rounded ">
+                    <div class=" d-grid rounded ">
+
+                        <button  class="d-flex p-2 justify-content-start btn_css" type="button" data-bs-toggle="collapse" data-bs-target="#MyGroup"  aria-expanded="false" aria-controls="MyGroup">
+                            <i class="fa fa-circle-o-notch mt-1 ms-4 me-4"></i> My Groups</button>
+                        <div id="MyGroup" class="collapse">
+                            <p>Some text..</p>
+                        </div>
+
+                        <button class="d-flex p-2 justify-content-start btn_css" type="button" data-bs-toggle="collapse" data-bs-target="#MyEvent" aria-expanded="false" aria-controls="MyEvent">
+                            <i class="fa fa-calendar-check-o mt-1 ms-4 me-4"></i> My Events</button>
+                        <div id="MyEvent" class="collapse">
+                            <p>Some other text..</p>
+                        </div>
+
+                        <button class="d-flex p-2 justify-content-start btn_css" type="button" data-bs-toggle="collapse" data-bs-target="#MyPhotos" aria-expanded="false" aria-controls="MyPhotos">
+                            <i class="fa fa-users mt-1 ms-4 me-4"></i> My Photos</button>
+                        <div id="MyPhotos" class="collapse p-3">
+                            <div class="  row row-cols-2 g-2 m-2">
+
+                                <div class="col-6">
+                                    <img src="images/lights.jpg" style="width:100%" class="p-2">
+                                </div>
+                                <div class="col">
+                                    <img src="images/nature.jpg" style="width:100%" class="p-2">
+                                </div>
+                                <div class="col">
+                                    <img src="images/mountains.jpg" style="width:100%" class="p-2">
+                                </div>
+                                <div class="col">
+                                    <img src="images/forest.jpg" style="width:100%" class="p-2">
+                                </div>
+                                <div class="col">
+                                    <img src="images/nature.jpg" style="width:100%" class="p-2">
+                                </div>
+                                <div class="col">
+                                    <img src="images/snow.jpg" style="width:100%" class="p-2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow mb-5 p-3 bg-body rounded container tags">
+                    <div class="container">
+                        <p>Interests</p>
+                        <p>
+                            <span class="badge  rounded-0" style="background-color: #303e45 ">News</span>
+                            <span class="badge  rounded-0" style="background-color: #3a4b53 ">W3Schools</span>
+                            <span class="badge  rounded-0" style="background-color: #435761  ">Labels</span>
+                            <span class="badge  rounded-0" style="background-color: #4d636f  ">Games</span>
+                            <span class="badge  rounded-0" style="background-color: #57707d  ">Friends</span>
+                            <span class="badge  rounded-0" style="background-color: #607d8b  ">Games</span>
+                            <span class="badge  rounded-0" style="background-color: #7d97a5  ">Friends</span>
+                            <span class="badge  rounded-0 text-black" style="background-color: #9eb1bb  ">Food</span>
+                            <span class="badge  rounded-0 text-black" style="background-color: #becbd2  ">Design</span>
+                            <span class="badge  rounded-0 text-black" style="background-color: #dfe5e8  ">Art</span>
+                            <span class="badge  rounded-0 text-black" style="background-color: #f5f7f8  ">Photos</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="toast show mb-5 w-100 p-3 container">
+                    <div class="toast-header d-flex">
+                        Hey!
+                        <button type="button" class=" d-flex ms-auto align-self-stretch btn-close" data-bs-dismiss="toast"></button>
+                    </div>
+                    <div class="toast-body">
+                        People are looking at your profile. Find out who.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 bg-light">
+
+                <div class=" card shadow d-grid d-md-block  container bg-light p-4">
+                    <h6 class="opacity-50 d-flex p-3 justify-content-start">Social Media template by w3.css</h6>
+                    <input class="p-3 mb-3 w-100 border-1 border-opacity-75" type="text" placeholder="Status: Feeling Blue" aria-label="default input example">
+                    <button type="button" class="btn_mid border-opacity-50  p-3  border-0  d-grid gap-2 d-md-block "><i class="fa fa-pencil me-2"></i>Post</button>
+                </div>
+                <div class=" card shadow d-grid d-md-block mt-4 container bg-light ">
+                    <div class="card-header bg-light">
+                        <span class="opacity-50 d-flex justify-content-end " >1 min</span>
+                        <h4 class="text-start "><img src="images/avatar2.png" alt="Avatar" class="   rounded-circle ms-3 me-3" style="width:60px"> John Doe</h4><br>
+                    </div>
+                    <div class="card-body">
+                        <p class="fs-6 p-1 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="  row row-cols-2 g-2 m-2" style="margin:0 -16px">
+                            <div class="col-6">
+                                <img src="images/lights.jpg" style="width:100%" class="p-2">
+                            </div>
+                            <div class="col">
+                                <img src="images/nature.jpg" style="width:100%" class="p-2">
+                            </div>
+
+                        </div>
+                        <div class="gap-2  p-1 d-flex justify-content-start">
+                            <button type="button" class="btn_mid  border-opacity-50  p-3  border-0   "><i class="fa fa-thumbs-up me-3"></i>Like</button>
+                            <button type="button" class="btn_mid border-opacity-50  p-3  border-0   "><i class="fa fa-comment me-3"></i>Comment</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class=" card shadow d-grid d-md-block mt-4 container bg-light ">
+                    <div class="card-header bg-light">
+                        <span class="opacity-50 d-flex justify-content-end " >16 min</span>
+                        <h4 class="text-start "><img src="images/avatar5.png" alt="Avatar" class="   rounded-circle ms-3 me-3" style="width:60px"> John Doe</h4><br>
+                    </div>
+                    <div class="card-body">
+                        <p class="fs-6 p-1 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <div class="gap-2  p-1 d-flex justify-content-start">
+                            <button type="button" class="btn_mid  border-opacity-50  p-3  border-0   "><i class="fa fa-thumbs-up me-3"></i>Like</button>
+                            <button type="button" class="btn_mid border-opacity-50  p-3  border-0   "><i class="fa fa-comment me-3"></i>Comment</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class=" card shadow d-grid d-md-block mt-4 container bg-light ">
+                    <div class="card-header bg-light">
+                        <span class="opacity-50 d-flex justify-content-end " >32 min</span>
+                        <h4 class="text-start "><img src="images/avatar2.png" alt="Avatar" class="   rounded-circle ms-3 me-3" style="width:60px"> John Doe</h4><br>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="d-flex justify-content-start"> Have you seen this? </h6>
+                        <div class="  row   p-1" style="margin:0 -16px">
+                            <div class="col">
+                                <img src="images/nature.jpg" style="width:100%" class="p-2">
+                            </div>
+                        </div>
+                        <p class="fs-6 p-1 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <div class="gap-2  p-1 d-flex justify-content-start">
+                            <button type="button" class="btn_mid  border-opacity-50  p-3  border-0   "><i class="fa fa-thumbs-up me-3"></i>Like</button>
+                            <button type="button" class="btn_mid border-opacity-50  p-3  border-0   "><i class="fa fa-comment me-3"></i>Comment</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-3 bg-light">
+
+                <div class="card shadow p-4 fs-6 mb-4">
+                    <div class="container">
+                        <p>Upcoming Events:</p>
+                        <img src="images/forest.jpg" alt="Forest" style="width:100%;">
+                        <p class="p-2"><strong>Holiday</strong></p>
+                        <p>Friday 15:00</p>
+                        <button class=" btn_left border-0 p-2 d-grid w-100">Info</button>
+                    </div>
+                </div>
+
+                <div class="card shadow p-4 fs-6 mb-4">
+                    <div class="container">
+                        <p>Friend Request</p>
+                        <img src="images/avatar6.png" alt="Avatar" style="width:50%">
+                        <span class="d-block p-2" >Jane Doe</span>
+                        <div class="btn-group d-flex">
+                            <button class="btn_left_21   border-0 p-4  d-grid w-100 p-2"><i class="fa fa-check"></i></button>
+                            <button class="btn_left_22  border-0 p-4 d-grid w-100 p-2" ><i class="fa fa-remove"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow p-5 fs-6 mb-4">ADS</div>
+
+                <div class="card shadow p-5 fs-5 mb-5"><i class="fa fa-bug fs-1"></i></div>
+            </div>
+        </div>
+
+</div>
+
+<!--   Footer   -->
+<footer class="d-grid p-4 navbar
+ bottom-0  text-white fs-3 w-100" style="background-color: #4d636f">
+    Footer
+</footer>
+<footer class="d-grid p-3 navbar  bottom-0  text-white fs-6 w-100" style="background-color: #36454d">
+    <p>Powered by <a class=" text-white" href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<!--  End Footer   -->
+
+<script src="bootstrap.min.js" rel="script"></script>
+
+</body>
+</html>
